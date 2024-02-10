@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forside</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="https://kit.fontawesome.com/cdca0118d7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="header">
+        <div class="languages">
             <a href="#">da</a>
             |
             <a href="#">en</a>
         </div>
-        logo
-        burgermenu
+        <div class="header">
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
         <section>
             <img src="Opgave git/banner-billede.jpg" alt="fire unge smilende studerende">
@@ -25,16 +29,18 @@
         </section>
         <main>
             <section class="one">
-                <h3>Bliv en del af fællesskabet idag!</h3>
-                <p>Vores fokus er at bringe mennesker sammen og skabe et netværk af ligesindede, som kan dele deres erfaringer og støtte hinanden på forskellige måder. Som medlem af vores fællesskab vil du have adgang til en række fordele, herunder eksklusive tilbud, rabatter, og særlige arrangementer.</p>
-                <p>Derudover kan du opbygge et tæt netværk med andre medlemmer og få mulighed for at udveksle ideer og lære af andres erfaringer.</p>
-                <p>Uanset om du er på udkig efter professionel støtte, personlig udvikling eller bare ønsker at møde nye mennesker, vil vores fællesskab give dig muligheden for at opbygge meningsfulde relationer og have det sjovt undervejs.</p>
+                <div class="main">
+                    <h3>Bliv en del af fællesskabet idag!</h3>
+                    <p>Vores fokus er at bringe mennesker sammen og skabe et netværk af ligesindede, som kan dele deres erfaringer og støtte hinanden på forskellige måder. Som medlem af vores fællesskab vil du have adgang til en række fordele, herunder eksklusive tilbud, rabatter, og særlige arrangementer.</p>
+                    <p>Derudover kan du opbygge et tæt netværk med andre medlemmer og få mulighed for at udveksle ideer og lære af andres erfaringer.</p>
+                    <p>Uanset om du er på udkig efter professionel støtte, personlig udvikling eller bare ønsker at møde nye mennesker, vil vores fællesskab give dig muligheden for at opbygge meningsfulde relationer og have det sjovt undervejs.</p>
+                </div>
                 <div class="tilmeld">
                   <h4>Tilmeld dig her!</h4>
-                  Navn
-                  Brugernavn
-                  E-mail
-                  <a href="#">Tilmeld</a>
+                  <input type="text" placeholder="Navn">
+                  <input type="text" placeholder="Brugernavn">
+                  <input type="text" placeholder="E-mail">
+                  <a class="cta" href="#">Tilmeld</a>
                 </div>
             </section>
             <section class="two">
@@ -42,7 +48,7 @@
                 <p>Ved at være en del af vores kreative fællesskab og netværk vil du opdage en verden af muligheder for at udtrykke dig selv og skabe noget fantastisk.</p>
                 <p>Vores fællesskab er fyldt med talentfulde og passionerede mennesker, som brænder for at skabe kunst, musik, design og meget mere. Som medlem vil du have adgang til en bred vifte af ressourcer og støtte, der kan hjælpe dig med at udvikle dine kreative færdigheder og tage dine projekter til nye højder.</p>
                 <p>Vores netværk er også en fantastisk mulighed for at møde andre kreative mennesker, som deler din lidenskab og kan inspirere dig til at udforske nye ideer og kreative udfoldelser. Bliv en del af vores fællesskab og oplev, hvordan sammen kan vi skabe noget virkelig fantastisk!</p>
-                <a href="#">Læs hvordan vi kan arbejde sammen</a>
+                <a class="cta" href="#">Læs hvordan vi kan arbejde sammen</a>
             </section>
     </main>
     <footer>
